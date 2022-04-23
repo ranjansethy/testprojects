@@ -29,6 +29,25 @@ public class Student {
 	public void updateFees(int fees){
 		fees_paid+=fees;
 	}
+	public int getId() {
+		return id;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public int getFees_paid() {
+		return fees_paid;
+	}
+	
+	public int getFees_total() {
+		return fees_total;
+	}
+	
+	public int getGrade() {
+		return grade;
+	}
 	
 	
 
